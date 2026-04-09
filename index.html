@@ -14,14 +14,14 @@
         :root {
             --primary: #fd81c9;
             --primary-dark: #f60099;
-            --secondary: #9cefff;
+            --secondary: #0ebbfd;
             --accent: #ffd438;
             --dark: #000000;
             --light: #F7F7F7;
             --white: #FFFFFF;
             --text: #333333;
             --text-light: #666666;
-            --gradient: linear-gradient(to bottom, #fd81c9, #f60099, #9cefff);
+            --gradient: linear-gradient(to bottom, #94e1fe, #f60099);
         }
         
         * {
@@ -163,7 +163,7 @@
             font-size: clamp(2.5rem, 6vw, 4rem);
             font-weight: 700;
             margin-bottom: 1rem;
-            background: var(--gradient);
+            background: var(--secondary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -218,7 +218,7 @@
             font-weight: 700;
             text-align: center;
             margin-bottom: 3rem;
-            background: var(--gradient);
+            background: var(--secondary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -234,8 +234,8 @@
         
         .about-text h3 {
             font-family: 'Fredoka', sans-serif;
-            font-size: 2rem;
-            color: var(--primary);
+            font-size: 1.75rem;
+            color: var(--text);
             margin-bottom: 1rem;
         }
         
@@ -270,13 +270,10 @@
         
         /* Commission Info */
         .commission-note {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-            color: white;
-            padding: 2rem;
+            color: var(--text);
             border-radius: 15px;
             text-align: center;
             margin-bottom: 3rem;
-            box-shadow: 0 10px 30px rgba(255, 107, 157, 0.3);
         }
         
         .commission-note strong {
@@ -286,14 +283,14 @@
         }
         
         .commission-note a {
-            color: var(--accent);
-            text-decoration: none;
+            color: var(--text);
+            text-decoration: underline;
             font-weight: 600;
             transition: color 0.3s ease;
         }
         
         .commission-note a:hover {
-            color: var(--white);
+            color: var(--primary);
             text-decoration: underline;
         }
         
@@ -491,7 +488,7 @@
             right: 2rem;
             width: 50px;
             height: 50px;
-            background: var(--gradient);
+            background: var(--secondary);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -528,11 +525,9 @@
                 <span></span>
             </div>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#commissions">Commissions</a></li>
                 <li><a href="#care">Care Instructions</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfnLM-OTdppa73YeKTvmxFzulFz9ad2HIKQuMjfQakJCYizkQ/viewform" target="_blank">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -551,7 +546,6 @@
         <h2 class="section-title">About Us</h2>
         <div class="about-content">
             <div class="about-text">
-                <h3>Phoenix-Based Fursuit Makers</h3>
                 <p>A couple of Phoenix-based furs just trying to make the fandom a better place! With a combined <strong>14 years</strong> experience making all things furry, we specialize in the creation of custom fursuits and fursuit parts including heads, paws, and tails (oh my!).</p>
                 <p>Our goal is to shine a positive light on the fandom and help furs bring their fursonas to life.</p>
                 <p>Want us to help bring <strong>YOUR</strong> sona to life? Check out our commission info below!</p>
@@ -582,7 +576,6 @@
     <!-- Care Instructions Section -->
     <section id="care">
         <h2 class="section-title">Care Instructions</h2>
-        <p class="section-subtitle">Don't be gross.</p>
         
         <div class="warning-box">
             <strong>⚠️ IMPORTANT!</strong>
@@ -669,7 +662,7 @@
         <div class="contact-content">
             <p style="font-size: 1.2rem; margin-bottom: 2rem;">Ready to bring your fursona to life? We'd love to hear from you!</p>
             <div class="contact-buttons">
-                <a href="https://www.instagram.com/itssofuzzyy/" class="contact-button secondary" target="_blank">
+                <a href="https://www.instagram.com/itssofuzzyy/" class="contact-button primary" target="_blank">
                     📸 Follow on Instagram
                 </a>
                 <a href="https://goo.gl/forms/WeSsXRa6RvyVWK473" class="contact-button primary" target="_blank">
@@ -684,7 +677,7 @@
         <div class="footer-links">
             <a href="http://itssofuzzy.com/privacy-policy/">Privacy Policy</a>
             <a href="terms.html">Terms of Service</a>
-            <a href="#contact">Contact Us</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfnLM-OTdppa73YeKTvmxFzulFz9ad2HIKQuMjfQakJCYizkQ/viewform" target="_blank">Contact Us</a>
         </div>
         <p>COPYRIGHT 2026 THE FUZZ, LLC ALL RIGHTS RESERVED</p>
     </footer>
