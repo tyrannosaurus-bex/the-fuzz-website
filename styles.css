@@ -90,7 +90,7 @@ nav.scrolled {
     left: 0;
     width: 0;
     height: 3px;
-    background: var(--gradient);
+    background: var(--primary-dark);
     transition: width 0.3s ease;
 }
 
@@ -452,7 +452,7 @@ section:nth-child(even) {
     font-family: 'Fredoka', sans-serif;
     font-size: clamp(2.5rem, 5vw, 3.5rem);
     font-weight: 700;
-    background: var(--gradient);
+    background: var(--secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
